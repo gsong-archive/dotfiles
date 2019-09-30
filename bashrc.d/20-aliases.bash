@@ -1,10 +1,11 @@
-alias npx='pnpx'
 alias chrome='open -a "google chrome.app"'
 alias diff=colordiff
 alias flushdns='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
+alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/"
 alias l='exa $LS_OPTIONS -l'
 alias ll='exa $LS_OPTIONS -la'
 alias ls='exa $LS_OPTIONS'
+alias npx='pnpx'
 alias pdfcombine='"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py"'
 alias pgrep='pgrep -f -l'
 alias pkill='pkill -f -l'
