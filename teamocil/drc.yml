@@ -7,7 +7,7 @@ windows:
       - npm start
       - npx cosmos
       - npm run start:api:mock-server
-      - npm run build:dist:watch
+      - npm run build:watch
   - name: drc-tests
     root: ~/src/veelo/veelo/src/air_lms/air_lms/static/discovery-react-components
     layout: even-vertical

@@ -3,7 +3,12 @@ set -e
 
 npm -g install npm@latest pnpm@latest
 
-pnpm -g install \
-  gitlab-ci-lint localtunnel mermaid.cli prettier tldr
+npm install -g \
+  dockerfile_lint \
+  gitlab-ci-lint \
+  localtunnel \
+  mermaid.cli \
+  prettier \
+  tldr
 
-pnpm -g update
+npm up -g
