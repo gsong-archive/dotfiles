@@ -4,10 +4,8 @@ ipython
 isort
 linode-cli
 pip-tools
-pipenv
 pre-commit
 seed-isort-config
-titlecase
 virtualenvwrapper
 
 # Powerline

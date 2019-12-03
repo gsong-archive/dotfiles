@@ -10,7 +10,7 @@ aspy.yaml==1.3.0          # via pre-commit
 backports.functools-lru-cache==1.6.1  # via isort
 backports.shutil-get-terminal-size==1.0.0  # via ipython
 cached-property==1.5.1    # via aspy.refactor-imports
-certifi==2019.9.11        # via pipenv, requests
+certifi==2019.11.28       # via requests
 cfgv==2.0.1               # via pre-commit
 chardet==3.0.4            # via requests
 click==7.0                # via pip-tools
@@ -19,53 +19,50 @@ configparser==4.0.2       # via entrypoints, flake8, importlib-metadata
 contextlib2==0.6.0.post1  # via importlib-metadata
 decorator==4.4.1          # via ipython, traitlets
 entrypoints==0.3          # via flake8
-enum34==1.1.6             # via flake8, linode-cli, pipenv, traitlets
+enum34==1.1.6             # via flake8, linode-cli, traitlets
 flake8==3.7.9
 functools32==3.2.3.post2  # via flake8
 futures==3.3.0            # via isort, pre-commit
 identify==1.4.7
 idna==2.8                 # via requests
-importlib-metadata==0.23  # via pre-commit
+importlib-metadata==1.1.0  # via pre-commit
 importlib-resources==1.0.2  # via pre-commit
 ipython-genutils==0.2.0   # via traitlets
 ipython==5.8.0
 isort==4.3.21
-linode-cli==2.10.2
+linode-cli==2.10.3
 mccabe==0.6.1             # via flake8
 more-itertools==5.0.0     # via zipp
 nodeenv==1.3.3            # via pre-commit
 pathlib2==2.3.5           # via importlib-metadata, importlib-resources, ipython, pickleshare
-pbr==5.4.3                # via stevedore
+pbr==5.4.4                # via stevedore
 pexpect==4.7.0            # via ipython
 pickleshare==0.7.5        # via ipython
-pip-tools==4.2.0
-pipenv==2018.11.26
+pip-tools==4.3.0
 powerline-status==2.7
 pre-commit==1.20.0
 prompt-toolkit==1.0.18    # via ipython
 ptyprocess==0.6.0         # via pexpect
 pycodestyle==2.5.0        # via flake8
 pyflakes==2.1.1           # via flake8
-pygments==2.4.2           # via ipython
-pyyaml==5.1.2             # via aspy.yaml, linode-cli, pre-commit
+pygments==2.5.2           # via ipython
+pyyaml==5.2               # via aspy.yaml, linode-cli, pre-commit
 requests==2.22.0          # via linode-cli
 scandir==1.10.0           # via pathlib2
 seed-isort-config==1.9.3
 simplegeneric==0.8.1      # via ipython
-six==1.12.0               # via cfgv, more-itertools, pathlib2, pip-tools, pre-commit, prompt-toolkit, stevedore, traitlets
+six==1.13.0               # via cfgv, more-itertools, pathlib2, pip-tools, pre-commit, prompt-toolkit, stevedore, traitlets
 stevedore==1.31.0         # via virtualenvwrapper
 terminaltables==3.1.0     # via linode-cli
-titlecase==0.12.0
 toml==0.10.0              # via pre-commit
 traitlets==4.3.3          # via ipython
-typing==3.7.4.1           # via flake8, importlib-resources, pipenv
-urllib3==1.25.6           # via requests
-virtualenv-clone==0.5.3   # via pipenv, virtualenvwrapper
-virtualenv==16.7.7        # via pipenv, pre-commit, virtualenvwrapper
+typing==3.7.4.1           # via flake8, importlib-resources
+urllib3==1.25.7           # via requests
+virtualenv-clone==0.5.3   # via virtualenvwrapper
+virtualenv==16.7.8        # via pre-commit, virtualenvwrapper
 virtualenvwrapper==4.8.4
 wcwidth==0.1.7            # via prompt-toolkit
 zipp==0.6.0               # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-# pip==19.3.1               # via pipenv
-# setuptools==41.6.0        # via ipython, pipenv
+# setuptools
