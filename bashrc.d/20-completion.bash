@@ -1,4 +1,6 @@
 # shellcheck source=/dev/null
+export BASH_COMPLETION_COMPAT_DIR="/usr/local/etc/bash_completion.d"
+
 hash brew 2>/dev/null \
-  && [[ -f $(brew --prefix)/share/bash-completion/bash_completion ]] \
-  && source "$(brew --prefix)"/share/bash-completion/bash_completion
+  && [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] \
+  && source "/usr/local/etc/profile.d/bash_completion.sh"

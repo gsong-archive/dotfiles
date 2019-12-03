@@ -1,19 +1,24 @@
 name: "general"
 windows:
   - name: rrh
-    root: ~/src/rrh/ecogold-app
     layout: even-vertical
     panes:
       - commands:
+        - cd ~/src/rrh/ecogold-app
         - start-docker
         - make dev-restart
         - make logs-tools
       - commands:
+        - cd ~/src/rrh/ecogold-app
         - sleep 20
         - make logs-services
       - commands:
+        - cd ~/src/rrh/ecogold-app
         - sleep 20
         - make webapp-shell
       - commands:
+        - cd ~/src/rrh/ecogold-app
         - make ansible
-      - focus: true
+      - commands:
+        - cd ~/src/rrh/ecogold-app
+        focus: true

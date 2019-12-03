@@ -1,4 +1,4 @@
-name: "3gpp"
+name: "general"
 windows:
   - name: client
     root: ~/src/3gpp-client/
