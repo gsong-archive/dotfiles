@@ -6,13 +6,13 @@ tap "homebrew/services"
 
 # Better versions of Mac built-ins
 brew "bash"
-brew "bash-completion@2"
 brew "colordiff"
 brew "gnu-sed"
 brew "rsync"
 brew "the_silver_searcher"
 
 # Bash completions
+brew "bash-completion@2"
 brew "brew-cask-completion"
 brew "django-completion"
 brew "docker-completion"
@@ -28,14 +28,6 @@ brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 
 # Node
 brew "nvm"
-
-# node-canvas
-brew "cairo"
-brew "giflib"
-brew "jpeg"
-brew "libpng"
-brew "pango"
-brew "pkg-config"
 
 # React develoment (jest)
 brew "watchman"
@@ -98,6 +90,7 @@ cask "quicklook-json"
 cask "alfred"
 cask "appcleaner"
 cask "bartender"
+cask "cheatsheet"
 cask "cyberduck"
 cask "docker"
 cask "encryptme"
@@ -107,9 +100,12 @@ cask "funter"
 cask "google-chrome"
 cask "istat-menus"
 cask "keepingyouawake"
+cask "mactracker"
+cask "markdown-service-tools"
 cask "marked"
 cask "nvalt"
 cask "onyx"
+cask "p4v"
 cask "pester"
 cask "skitch"
 cask "slack"
@@ -122,11 +118,7 @@ cask "tripmode"
 cask "whatsapp"
 
 # Color calibration
-brew "argyll-cms"
 cask "displaycal"
-
-# PrefPanes
-cask "rcdefaultapp"
 
 # fonts
 tap "homebrew/cask-fonts"
@@ -141,7 +133,6 @@ brew "heroku-node"
 brew "libmemcached"
 brew "libxmlsec1"
 brew "sentry-cli"
-cask "chromedriver"
 cask "figma"
 cask "zeplin"
 cask "zoomus"
