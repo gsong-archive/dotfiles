@@ -5,7 +5,6 @@ windows:
     layout: even-vertical
     panes:
       - commands:
-        - npm ci
         - BROWSER="google chrome" NO_GHOST=true npm run start:mock-api-proxy
       - focus: true
       - commands:

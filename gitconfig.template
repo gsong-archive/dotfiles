@@ -3,10 +3,12 @@
   email = @email
 
 [core]
-  excludesfile = ~/.gitignore_global
-  safecrlf = warn
   autocrlf = input
-  pager = less -R -S -x4
+	excludesfile = /Users/george/.gitignore_global
+  ignorecase = false
+	pager = diff-so-fancy | less --tabs=4 -RFX
+  safecrlf = warn
+  whitespace = trailing-space,space-before-tab
 
 [alias]
   bl = blame -C
@@ -27,8 +29,11 @@
   untracked-files = ls-files -o --exclude-standard
 
 [color]
-  status = auto
+  branch = auto
   diff = auto
+  interactive = auto
+  status = auto
+  ui = true
 
 [color "branch"]
   current = red reverse
@@ -60,8 +65,12 @@
 	keepBackup = false
 
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
+	path = 
 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 	trustExitCode = true
+
+[apply]
+  whitespace = fix

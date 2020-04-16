@@ -94,12 +94,7 @@ let g:localvimrc_persistent = 2
 let g:localvimrc_event = ["BufWinEnter", "BufReadPre"]
 
 " Prettier
-let g:prettier#config#arrow_parens = 'avoid'
-let g:prettier#config#bracket_spacing = 'true'
-let g:prettier#config#jsx_bracket_same_line = 'false'
-let g:prettier#config#parser = 'babylon'
-let g:prettier#config#single_quote = 'false'
-let g:prettier#config#trailing_comma = 'none'
+let g:prettier#config#arrow_parens = 'always'
 
 " The Silver Searcher
 if executable('ag')
