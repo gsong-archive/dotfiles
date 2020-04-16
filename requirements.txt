@@ -5,63 +5,62 @@
 #    pip-compile
 #
 appdirs==1.4.3            # via black, virtualenv
-appnope==0.1.0            # via ipython
-aspy.refactor-imports==1.1.0  # via seed-isort-config
-aspy.yaml==1.3.0          # via pre-commit
+aspy.refactor-imports==2.1.0  # via seed-isort-config
 attrs==19.3.0             # via black, flake8-bugbear
 backcall==0.1.0           # via ipython
-black==19.10b0
+black==19.10b0            # via -r requirements.in
 cached-property==1.5.1    # via aspy.refactor-imports
-certifi==2019.11.28       # via requests
-cfgv==3.0.0               # via pre-commit
+certifi==2020.4.5.1       # via requests
+cfgv==3.1.0               # via pre-commit
 chardet==3.0.4            # via requests
-click==7.0                # via black, pip-tools
+click==7.1.1              # via black, pip-tools
 colorclass==2.2.0         # via linode-cli
-decorator==4.4.1          # via ipython, traitlets
+decorator==4.4.2          # via ipython, traitlets
 distlib==0.3.0            # via virtualenv
 entrypoints==0.3          # via flake8
-enum34==1.1.6             # via linode-cli
+enum34==1.1.10            # via linode-cli
 filelock==3.0.12          # via virtualenv
-flake8-bugbear==20.1.4
-flake8==3.7.9
-identify==1.4.11
-idna==2.8                 # via requests
+flake8-bugbear==20.1.4    # via -r requirements.in
+flake8==3.7.9             # via -r requirements.2.in, flake8-bugbear
+identify==1.4.14          # via -r requirements.2.in, pre-commit
+idna==2.9                 # via requests
 ipython-genutils==0.2.0   # via traitlets
-ipython==7.12.0
-isort==4.3.21
-jedi==0.16.0              # via ipython
-linode-cli==2.13.1
+ipython==7.13.0           # via -r requirements.2.in
+isort==4.3.21             # via -r requirements.2.in
+jedi==0.17.0              # via ipython
+linode-cli==2.14.1        # via -r requirements.2.in
 mccabe==0.6.1             # via flake8
 nodeenv==1.3.5            # via pre-commit
-parso==0.6.1              # via jedi
-pathspec==0.7.0           # via black
-pbr==5.4.4                # via stevedore
+parso==0.7.0              # via jedi
+pathspec==0.8.0           # via black
+pbr==5.4.5                # via stevedore
 pexpect==4.8.0            # via ipython
 pickleshare==0.7.5        # via ipython
-pip-tools==4.4.1
-powerline-status==2.7
-pre-commit==2.0.1
-prompt-toolkit==3.0.3     # via ipython
+pip-tools==5.0.0          # via -r requirements.2.in
+powerline-status==2.7     # via -r requirements.2.in
+pre-commit==2.2.0         # via -r requirements.2.in
+prompt-toolkit==3.0.5     # via ipython
 ptyprocess==0.6.0         # via pexpect
 pycodestyle==2.5.0        # via flake8
 pyflakes==2.1.1           # via flake8
-pygments==2.5.2           # via ipython
-pyyaml==5.3               # via aspy.yaml, linode-cli, pre-commit
-regex==2020.1.8           # via black
-requests==2.22.0          # via linode-cli
-seed-isort-config==1.9.4
+pygments==2.6.1           # via ipython
+pyyaml==5.3.1             # via linode-cli, pre-commit
+regex==2020.4.4           # via black
+requests==2.23.0          # via linode-cli
+seed-isort-config==2.1.1  # via -r requirements.2.in
 six==1.14.0               # via pip-tools, stevedore, traitlets, virtualenv
 stevedore==1.32.0         # via virtualenvwrapper
 terminaltables==3.1.0     # via linode-cli
-titlecase==0.12.0
+titlecase==0.12.0         # via -r requirements.in
 toml==0.10.0              # via black, pre-commit
 traitlets==4.3.3          # via ipython
 typed-ast==1.4.1          # via black
-urllib3==1.25.8           # via requests
-virtualenv-clone==0.5.3   # via virtualenvwrapper
-virtualenv==20.0.4        # via pre-commit, virtualenvwrapper
-virtualenvwrapper==4.8.4
-wcwidth==0.1.8            # via prompt-toolkit
+urllib3==1.25.9           # via requests
+virtualenv-clone==0.5.4   # via virtualenvwrapper
+virtualenv==20.0.18       # via pre-commit, virtualenvwrapper
+virtualenvwrapper==4.8.4  # via -r requirements.2.in
+wcwidth==0.1.9            # via prompt-toolkit
 
 # The following packages are considered to be unsafe in a requirements file:
+# pip
 # setuptools

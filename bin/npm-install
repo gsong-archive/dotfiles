@@ -6,7 +6,6 @@ npm -g install npm@latest pnpm@latest
 npm install -g \
   dockerfile_lint \
   gitlab-ci-lint \
-  localtunnel \
   mermaid.cli \
   prettier \
   tldr
