@@ -1,10 +1,11 @@
 name: "general"
 windows:
-  - name: design
-    root: ~/src/btc/design-system-react
+  - name: hkp
+    root: ~/src/hk-patents/app
     layout: even-vertical
     panes:
       - npm start
+      - npm test
       - commands:
         - git fetch -p -P
         focus: true

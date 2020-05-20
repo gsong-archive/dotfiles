@@ -1,0 +1,11 @@
+name: "general"
+windows:
+  - name: rds
+    root: ~/src/btc/design-system-react
+    layout: even-vertical
+    panes:
+      - npm start
+      - npm test
+      - commands:
+        - git fetch -p -P
+        focus: true

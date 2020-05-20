@@ -30,5 +30,5 @@ folder 'vim/pack/plugins/start' do
 end
 
 folder 'vim/pack/plugins/start/black/plugin' do
-  file 'black.vim', 'https://raw.githubusercontent.com/ambv/black/master/plugin/black.vim'
+  file 'black.vim', 'https://raw.githubusercontent.com/psf/black/master/plugin/black.vim'
 end
