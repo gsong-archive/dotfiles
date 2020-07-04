@@ -4,9 +4,9 @@ set -e
 npm -g install npm@latest pnpm@latest
 
 npm install -g \
-  dockerfile_lint \
+  @mermaid-js/mermaid-cli \
   gitlab-ci-lint \
-  mermaid.cli \
+  markdownlint-cli \
   prettier \
   tldr
 

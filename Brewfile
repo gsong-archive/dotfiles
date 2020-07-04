@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "universal-ctags/universal-ctags"
 
 # Better versions of Mac built-ins
 brew "bash"
@@ -20,12 +21,16 @@ brew "docker-compose-completion"
 brew "pip-completion"
 
 # General development
-tap "universal-ctags/universal-ctags"
 brew "automake"
 brew "ctop"
 brew "git"
 brew "git-delta"
+brew "hadolint"
 brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
+
+# GitHub
+tap "nektos/tap"
+brew "nektos/tap/act"
 
 # Node
 brew "nvm"
@@ -91,14 +96,14 @@ cask "appcleaner"
 cask "bartender"
 cask "cheatsheet"
 cask "cyberduck"
-cask "docker"
 cask "duet"
 cask "encryptme"
 cask "firefox"
 cask "fluid"
 cask "focusatwill"
-cask "funter"
+cask "fsnotes"
 cask "google-chrome"
+cask "homebrew/cask-versions/docker-edge"
 cask "istat-menus"
 cask "keepingyouawake"
 cask "krisp"

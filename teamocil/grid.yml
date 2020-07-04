@@ -1,11 +1,11 @@
 name: "general"
 windows:
-  - name: rds
-    root: ~/src/btc/btc-fe-web
+  - name: grid
+    root: ~/src/gsong/react-listitem-grid
     layout: even-vertical
     panes:
-      - npm run docz:start
-      - npx nx test design-system --watch
+      - npm start
+      - npm t
       - commands:
         - git fetch -p -P
         focus: true

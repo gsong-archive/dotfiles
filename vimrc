@@ -66,16 +66,11 @@ set omnifunc=syntaxcomplete#Complete
 
 highlight SpellBad term=underline gui=undercurl guisp=Orange
 
-" Syntastic
-let g:syntastic_check_on_open=1
-let g:syntastic_html_tidy_ignore_errors = ['proprietary attribute "ng-']
-let g:syntastic_javascript_checkers = ['eslint']
-
 " Ale
 let g:ale_linters = {'javascript': ['eslint', 'flow']}
 
 " NerdTree
-let NERDTreeIgnore=['\.pyc', '\~$', '\.swo$', '\.swp$', '\.git', '\.hg', '\.svn', '\.bzr']
+let NERDTreeIgnore=['\.DS_Store', '\.git$', '\.pyc', '\.swo$', '\.swp$', '\~$']
 let NERDTreeChDirMode=2
 let g:NERDTreeDirArrowExpandable = '►'
 let g:NERDTreeDirArrowCollapsible = '▼'
