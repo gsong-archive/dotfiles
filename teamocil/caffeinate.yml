@@ -4,4 +4,4 @@ windows:
     root: ~/
     panes:
       - commands:
-        - caffeinate -u -t 5400
+          - caffeinate -u -t 5400

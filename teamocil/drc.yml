@@ -15,6 +15,6 @@ windows:
       - npm test
       - npm run flow
       - commands:
-        - npm run clean:dist
-        - npm run eslint:watch
+          - npm run clean:dist
+          - npm run eslint:watch
       - focus: true

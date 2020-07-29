@@ -7,5 +7,5 @@ windows:
       - npm start
       - npm test
       - commands:
-        - git fetch -p -P
+          - git fetch -p -P
         focus: true

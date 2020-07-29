@@ -1,11 +1,10 @@
 name: "general"
 windows:
-  - name: rds
-    root: ~/src/btc/btc-fe-web
+  - name: website
+    root: ~/src/gsong/personal-site
     layout: even-vertical
     panes:
-      - npm run docz:start
-      - npx nx test design-system --watch
+      - npm start
       - commands:
           - git fetch -p -P
         focus: true

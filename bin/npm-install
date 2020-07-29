@@ -5,9 +5,11 @@ npm -g install npm@latest pnpm@latest
 
 npm install -g \
   @mermaid-js/mermaid-cli \
+  alex \
   gitlab-ci-lint \
   markdownlint-cli \
   prettier \
-  tldr
+  tldr \
+  write-good
 
 npm up -g
