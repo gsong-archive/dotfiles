@@ -4,8 +4,13 @@ windows:
     root: ~/src/btc/btc-fe-web
     layout: even-vertical
     panes:
-      - npm run docz:start
-      - npx nx test design-system --watch
       - commands:
+          - nvm use default
+          - npm run docz:start
+      - commands:
+          - nvm use default
+          - npx nx test design-system --watch
+      - commands:
+          - nvm use default
           - git fetch -p -P
         focus: true

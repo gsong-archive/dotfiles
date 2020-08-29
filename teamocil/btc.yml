@@ -1,0 +1,9 @@
+name: "general"
+windows:
+  - name: btc
+    root: ~/src/btc/btc-fe-web
+    layout: even-vertical
+    panes:
+      - commands:
+          - nvm use default
+          - git fetch -p -P
