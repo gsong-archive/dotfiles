@@ -1,9 +1,0 @@
-name: "general"
-windows:
-  - name: veelo
-    root: ~/src/veelo/veelo
-    layout: even-vertical
-    panes:
-      - commands:
-          - start-docker
-          - git fetch -p -P
