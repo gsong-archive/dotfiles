@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 # This script will delete all local git branches that have been merged into master,
 # and then prompt before doing the same for all remote branches that have been merged into master.

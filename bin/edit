@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 # Launch MacVim or vi depending on whether we're on a local Mac or in an SSH session
 if type mvim &> /dev/null; then

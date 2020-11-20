@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 npm -g install npm@latest pnpm@latest
 
@@ -10,6 +10,7 @@ npm install -g \
   markdownlint-cli \
   prettier \
   tldr \
-  write-good
+  write-good \
+  yarn
 
 npm up -g

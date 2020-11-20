@@ -19,6 +19,7 @@ brew "django-completion"
 brew "docker-completion"
 brew "docker-compose-completion"
 brew "pip-completion"
+brew "yarn-completion"
 
 # General development
 brew "automake"
@@ -86,6 +87,10 @@ brew "wget"
 # tmux copy and paste
 brew "reattach-to-user-namespace"
 
+# tmux PAM reattch for Touch ID
+tap "fabianishere/personal"
+brew "fabianishere/personal/pam_reattach"
+
 # Quick Look plugins
 cask "qlimagesize"
 cask "qlmarkdown"
@@ -123,12 +128,13 @@ cask "pester"
 cask "skitch"
 cask "skype"
 cask "slack"
-cask "soundsource"
+# cask "soundsource"
 cask "sourcetree"
 cask "taskpaper"
 cask "the-unarchiver"
 cask "toggl"
 cask "tripmode"
+cask "vlc"
 cask "whatsapp"
 
 # Color calibration
@@ -140,4 +146,7 @@ cask "font-input"
 
 # BTC
 cask "browserstacklocal"
+
+# EDB
+cask "openconnect-gui"
 cask "zoomus"

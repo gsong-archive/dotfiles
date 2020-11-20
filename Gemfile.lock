@@ -9,8 +9,9 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     concurrent-ruby (1.1.7)
-    faraday (1.0.1)
+    faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
+      ruby2_keywords
     faraday_middleware (1.0.0)
       faraday (~> 1.0)
     gh (0.18.0)
@@ -37,6 +38,7 @@ GEM
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
+    ruby2_keywords (0.0.2)
     teamocil (1.4.2)
     thread_safe (0.3.6)
     travis (1.10.0)
@@ -47,7 +49,7 @@ GEM
       json_pure (~> 2.3)
       launchy (~> 2.1, < 2.5.0)
       pusher-client (~> 0.4)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
     vendorer (0.2.0)
     websocket (1.2.8)
