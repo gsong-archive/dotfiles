@@ -9,5 +9,5 @@ brew bundle --no-upgrade --global
 brew cleanup --prune=30
 brew upgrade
 brew cu --all --yes --no-brew-update
-# brew cu --force --yes --no-brew-update
+brew cu --force --yes --no-brew-update
 /usr/bin/qlmanage -r
