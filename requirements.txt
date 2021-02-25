@@ -10,7 +10,7 @@ appdirs==1.4.4
     #   virtualenv
 appnope==0.1.2
     # via ipython
-aspy.refactor-imports==2.1.1
+aspy.refactor-imports==2.2.0
     # via seed-isort-config
 attrs==20.3.0
     # via flake8-bugbear
@@ -56,8 +56,10 @@ ipython==7.20.0
     # via -r requirements.in
 isort==5.7.0
     # via -r requirements.in
-jedi==0.18.0
-    # via ipython
+jedi==0.17.2
+    # via
+    #   ipython
+    #   python-language-server
 linode-cli==3.3.1
     # via -r requirements.in
 mccabe==0.6.1
@@ -66,7 +68,7 @@ mypy-extensions==0.4.3
     # via black
 nodeenv==1.5.0
     # via pre-commit
-parso==0.8.1
+parso==0.7.1
     # via jedi
 pathspec==0.8.1
     # via black
@@ -78,6 +80,8 @@ pickleshare==0.7.5
     # via ipython
 pip-tools==5.5.0
     # via -r requirements.in
+pluggy==0.13.1
+    # via python-language-server
 powerline-status==2.7
     # via -r requirements.in
 pre-commit==2.10.1
@@ -92,6 +96,10 @@ pyflakes==2.2.0
     # via flake8
 pygments==2.8.0
     # via ipython
+python-jsonrpc-server==0.4.0
+    # via python-language-server
+python-language-server==0.36.2
+    # via -r requirements.in
 pyyaml==5.4.1
     # via
     #   linode-cli
@@ -122,6 +130,10 @@ typed-ast==1.4.2
     # via black
 typing-extensions==3.7.4.3
     # via black
+ujson==4.0.2
+    # via
+    #   python-jsonrpc-server
+    #   python-language-server
 urllib3==1.26.3
     # via requests
 virtualenv-clone==0.5.4
