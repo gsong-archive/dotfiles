@@ -29,7 +29,7 @@ brew "git"
 brew "git-delta"
 brew "git-lfs"
 brew "hadolint"
-brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
+brew "universal-ctags/universal-ctags/universal-ctags"
 
 # GitHub Actions
 tap "nektos/tap"
@@ -103,12 +103,11 @@ cask "alfred"
 cask "appcleaner"
 cask "arq"
 cask "bartender"
+cask "brave-browser"
 cask "cheatsheet"
 cask "coconutbattery"
 cask "cyberduck"
-cask "discord"
 cask "docker"
-cask "duet"
 cask "encryptme"
 cask "firefox"
 cask "fluid"
@@ -143,9 +142,14 @@ cask "displaycal"
 tap "homebrew/cask-fonts"
 cask "font-input"
 
+# https://github.com/apparition47/MailTrackerBlocker
+tap "apparition47/tap"
+cask "mailtrackerblocker"
+
 # BTC
 cask "browserstacklocal"
 
 # EDB
 cask "openconnect-gui"
+cask "wkhtmltopdf"
 cask "zoom"
