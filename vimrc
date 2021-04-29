@@ -135,7 +135,7 @@ if has("autocmd")
     autocmd FileType javascript,markdown,python setlocal cc=80
     autocmd VimEnter * call Plugins()
     " prettier
-    autocmd FileType javascript.jsx,javascript setlocal formatprg=prettier\ --stdin
+    autocmd FileType javascript.jsx,javascript.mjs,javascript setlocal formatprg=prettier\ --stdin
 endif
 
 "Highlight trailing spaces http://vim.wikia.com/wiki/Highlight_unwanted_spaces

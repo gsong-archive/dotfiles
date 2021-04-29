@@ -5,7 +5,7 @@ alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Application
 alias l='exa $LS_OPTIONS -l'
 alias ll='exa $LS_OPTIONS -la'
 alias ls='exa $LS_OPTIONS'
-alias npx='pnpx'
+alias npx='pnpx -y'
 alias pdfcombine='"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py"'
 alias pgrep='pgrep -f -l'
 alias pkill='pkill -f -l'
@@ -20,7 +20,7 @@ alias stop-docker='osascript -e '\''quit app "Docker"'\'
 alias restart-docker='stop-docker && start-docker'
 
 if hash mvim 2>/dev/null; then
-  if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]]; then
-    alias vi='open -a MacVim'
+  if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]] || [[ "$TERM_PROGRAM" == "tmux" ]]; then
+    alias vi='mvim'
   fi
 fi
