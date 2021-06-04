@@ -68,6 +68,12 @@ highlight SpellBad term=underline gui=undercurl guisp=Orange
 
 " Ale
 let g:ale_linters = {'javascript': ['eslint', 'flow']}
+let g:ale_fixers = {
+  \ '*': ['prettier'],
+  \ 'javascript': ['eslint'],
+  \ 'python': ['isort', 'black']
+\}
+let g:ale_fix_on_save = 1
 
 " NerdTree
 let NERDTreeIgnore=['\.DS_Store', '\.git$', '\.pyc', '\.swo$', '\.swp$', '\~$']

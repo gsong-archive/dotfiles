@@ -1,5 +1,7 @@
 # pyenv
-hash pyenv 2>/dev/null && eval "$(pyenv init -)"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+hash pyenv 2>/dev/null && eval "$(pyenv init --path)" && eval "$(pyenv init -)"
 
 # virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
