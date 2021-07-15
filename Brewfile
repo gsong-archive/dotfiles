@@ -15,8 +15,6 @@ brew "the_silver_searcher"
 # Bash completions
 brew "bash-completion@2"
 brew "django-completion"
-brew "docker-completion"
-brew "docker-compose-completion"
 brew "pip-completion"
 brew "yarn-completion"
 
@@ -51,6 +49,10 @@ brew "sqlite"
 brew "xz"
 brew "zlib"
 
+# pdftotext
+brew "pkg-config"
+brew "poppler"
+
 # Ruby development
 brew "chruby"
 brew "libyaml"
@@ -61,6 +63,7 @@ brew "libmagic"
 
 # More nice-to-haves and various development tools
 brew "autojump"
+brew "diff-pdf"
 brew "direnv"
 brew "dive"
 brew "exa"
@@ -101,6 +104,7 @@ cask "alfred"
 cask "appcleaner"
 cask "arq"
 cask "bartender"
+cask "boop"
 cask "brave-browser"
 cask "carbon-copy-cloner"
 cask "coconutbattery"

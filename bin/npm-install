@@ -8,6 +8,7 @@ npm install -g \
   alex \
   markdownlint-cli \
   prettier \
+  prettier-plugin-sh \
   tldr \
   write-good \
   yarn
