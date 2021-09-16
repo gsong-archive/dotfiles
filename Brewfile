@@ -153,6 +153,7 @@ cask "mailtrackerblocker"
 cask "browserstacklocal"
 
 # EDB
+cask "figma"
 cask "openconnect-gui"
 cask "wkhtmltopdf"
 cask "zoom"
