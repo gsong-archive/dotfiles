@@ -49,6 +49,10 @@ brew "sqlite"
 brew "xz"
 brew "zlib"
 
+# pyenv 3.6 install workaround
+# https://stackoverflow.com/a/66483524
+brew "bzip2"
+
 # pdftotext
 brew "pkg-config"
 brew "poppler"
@@ -107,13 +111,14 @@ cask "bartender"
 cask "boop"
 cask "brave-browser"
 cask "carbon-copy-cloner"
+cask "cheatsheet"
 cask "coconutbattery"
 cask "cyberduck"
+cask "daisydisk"
 cask "docker"
 cask "encryptme"
 cask "evernote"
 cask "firefox"
-cask "focusatwill"
 cask "fsnotes"
 cask "google-chrome"
 cask "istat-menus"
@@ -141,10 +146,6 @@ cask "whatsapp"
 # Color calibration
 cask "displaycal"
 
-# fonts
-tap "homebrew/cask-fonts"
-cask "font-input"
-
 # https://github.com/apparition47/MailTrackerBlocker
 tap "apparition47/tap"
 cask "mailtrackerblocker"
@@ -161,3 +162,4 @@ cask "zoom"
 # Techtonica
 tap "heroku/brew"
 brew "heroku"
+cask "dbeaver-community"

@@ -1,16 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-npm -g install npm@latest pnpm@latest
+npm -g install npm@8 pnpm@latest
 
 npm install -g \
-  @mermaid-js/mermaid-cli \
-  alex \
-  markdownlint-cli \
-  prettier \
-  prettier-plugin-sh \
-  tldr \
-  write-good \
-  yarn
-
-npm up -g
+  @mermaid-js/mermaid-cli@latest \
+  alex@latest \
+  markdownlint-cli@latest \
+  prettier@latest \
+  prettier-plugin-sh@latest \
+  tldr@latest \
+  write-good@latest \

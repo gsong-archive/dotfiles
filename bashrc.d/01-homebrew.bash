@@ -1,4 +1,4 @@
-if hash brew 2>/dev/null; then
+if hash brew 2> /dev/null; then
   brew_prefix=$(brew --prefix)
 
   export PATH=$brew_prefix/bin:$brew_prefix/sbin:$PATH
