@@ -22,6 +22,7 @@ brew "yarn-completion"
 brew "automake"
 brew "bfg"
 brew "ctop"
+brew "gh"
 brew "git"
 brew "git-delta"
 brew "git-lfs"
@@ -93,8 +94,7 @@ brew "wget"
 brew "reattach-to-user-namespace"
 
 # tmux PAM reattch for Touch ID
-tap "fabianishere/personal"
-brew "fabianishere/personal/pam_reattach"
+brew "pam-reattach"
 
 # Quick Look plugins
 cask "qlimagesize"
@@ -116,6 +116,7 @@ cask "coconutbattery"
 cask "cyberduck"
 cask "daisydisk"
 cask "docker"
+cask "duet"
 cask "encryptme"
 cask "evernote"
 cask "firefox"
@@ -155,6 +156,7 @@ cask "browserstacklocal"
 
 # EDB
 cask "figma"
+cask "miro"
 cask "openconnect-gui"
 cask "wkhtmltopdf"
 cask "zoom"

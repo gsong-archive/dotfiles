@@ -8,13 +8,11 @@ appnope==0.1.2
     # via ipython
 aspy.refactor-imports==2.2.0
     # via seed-isort-config
-attrs==21.2.0
+attrs==21.4.0
     # via flake8-bugbear
 backcall==0.2.0
     # via ipython
-backports.entry-points-selectable==1.1.1
-    # via virtualenv
-black==21.11b1
+black==21.12b0
     # via -r requirements.in
 cached-property==1.5.2
     # via aspy.refactor-imports
@@ -22,7 +20,7 @@ certifi==2021.10.8
     # via requests
 cfgv==3.3.1
     # via pre-commit
-charset-normalizer==2.0.8
+charset-normalizer==2.0.9
     # via requests
 click==8.0.3
     # via
@@ -30,9 +28,9 @@ click==8.0.3
     #   pip-tools
 decorator==5.1.0
     # via ipython
-distlib==0.3.3
+distlib==0.3.4
     # via virtualenv
-filelock==3.4.0
+filelock==3.4.2
     # via virtualenv
 flake8==4.0.1
     # via
@@ -40,7 +38,7 @@ flake8==4.0.1
     #   flake8-bugbear
 flake8-bugbear==21.11.29
     # via -r requirements.in
-identify==2.4.0
+identify==2.4.1
     # via
     #   -r requirements.in
     #   pre-commit
@@ -78,7 +76,7 @@ pickleshare==0.7.5
     # via ipython
 pip-tools==6.4.0
     # via -r requirements.in
-platformdirs==2.4.0
+platformdirs==2.4.1
     # via
     #   black
     #   virtualenv
@@ -88,7 +86,7 @@ powerline-status==2.7
     # via -r requirements.in
 pre-commit==2.16.0
     # via -r requirements.in
-prompt-toolkit==3.0.23
+prompt-toolkit==3.0.24
     # via ipython
 ptyprocess==0.7.0
     # via pexpect
@@ -96,7 +94,7 @@ pycodestyle==2.8.0
     # via flake8
 pyflakes==2.4.0
     # via flake8
-pygments==2.10.0
+pygments==2.11.1
     # via ipython
 python-jsonrpc-server==0.4.0
     # via python-language-server
@@ -106,9 +104,7 @@ pyyaml==6.0
     # via
     #   linode-cli
     #   pre-commit
-regex==2021.11.10
-    # via black
-requests==2.26.0
+requests==2.27.0
     # via linode-cli
 seed-isort-config==2.2.0
     # via -r requirements.in
@@ -116,13 +112,13 @@ six==1.16.0
     # via virtualenv
 stevedore==3.5.0
     # via virtualenvwrapper
-terminaltables==3.1.0
+terminaltables==3.1.10
     # via linode-cli
 titlecase==2.3
     # via -r requirements.in
 toml==0.10.2
     # via pre-commit
-tomli==1.2.2
+tomli==1.2.3
     # via
     #   black
     #   pep517
@@ -132,13 +128,13 @@ traitlets==5.1.1
     #   matplotlib-inline
 typing-extensions==4.0.1
     # via black
-ujson==4.3.0
+ujson==5.1.0
     # via
     #   python-jsonrpc-server
     #   python-language-server
 urllib3==1.26.7
     # via requests
-virtualenv==20.10.0
+virtualenv==20.13.0
     # via
     #   pre-commit
     #   virtualenvwrapper
@@ -148,7 +144,7 @@ virtualenvwrapper==4.8.4
     # via -r requirements.in
 wcwidth==0.2.5
     # via prompt-toolkit
-wheel==0.37.0
+wheel==0.37.1
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
