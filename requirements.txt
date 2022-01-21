@@ -4,8 +4,6 @@
 #
 #    pip-compile
 #
-appnope==0.1.2
-    # via ipython
 aspy.refactor-imports==2.2.0
     # via seed-isort-config
 attrs==21.4.0
@@ -44,7 +42,7 @@ identify==2.4.1
     #   pre-commit
 idna==3.3
     # via requests
-ipython==7.30.1
+ipython==7.31.1
     # via -r requirements.in
 isort==5.10.1
     # via -r requirements.in
