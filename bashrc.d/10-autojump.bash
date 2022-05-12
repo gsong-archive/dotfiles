@@ -1,1 +1,1 @@
-[[ -r /usr/local/etc/profile.d/autojump.sh ]] && source /usr/local/etc/profile.d/autojump.sh
+[[ -r ${HOMEBREW_PREFIX}/etc/profile.d/autojump.sh ]] && source ${HOMEBREW_PREFIX}/etc/profile.d/autojump.sh

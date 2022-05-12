@@ -1,6 +1,5 @@
 export EDITOR=edit
 export LANG=en_US.UTF-8
-export ARCHFLAGS="-arch x86_64"
 
 [[ -d ~/.bin ]] && export PATH=~/.bin:$PATH
 
