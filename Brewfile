@@ -3,7 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "universal-ctags/universal-ctags"
 
 # Better versions of Mac built-ins
 brew "bash"
@@ -27,11 +26,10 @@ brew "git"
 brew "git-delta"
 brew "git-lfs"
 brew "hadolint"
-brew "universal-ctags/universal-ctags/universal-ctags"
+brew "universal-ctags"
 
 # GitHub Actions
-tap "nektos/tap"
-brew "nektos/tap/act"
+brew "act"
 
 # Node
 brew "nvm"
@@ -106,7 +104,6 @@ cask "quicklook-json"
 # Apps
 cask "alfred"
 cask "appcleaner"
-cask "arq"
 cask "bartender"
 cask "boop"
 cask "brave-browser"
@@ -128,6 +125,8 @@ cask "mactracker"
 cask "macvim"
 cask "marked"
 cask "menuwhere"
+cask "messenger"
+cask "micro-snitch"
 cask "ngrok"
 cask "onyx"
 cask "p4v"
@@ -151,8 +150,8 @@ cask "displaycal"
 tap "apparition47/tap"
 cask "mailtrackerblocker"
 
-# BTC
-cask "browserstacklocal"
+# Dequency
+cask "notion"
 
 # EDB
 cask "figma"
