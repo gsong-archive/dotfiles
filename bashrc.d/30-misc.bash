@@ -10,6 +10,6 @@ shopt -s histappend
 export PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 
 # use .localrc for settings specific to one system
-[[ -f ~/.localrc ]] && source ~/.localrc
+[[ -r ~/.localrc ]] && source ~/.localrc
 
 ulimit -n 24576
