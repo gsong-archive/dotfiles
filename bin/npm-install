@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-npm -g install npm@8 pnpm@latest
+npm --location=global install npm@8 pnpm@latest
 
-npm install -g \
+npm --location=global install \
   @mermaid-js/mermaid-cli@latest \
   alex@latest \
   markdownlint-cli@latest \
