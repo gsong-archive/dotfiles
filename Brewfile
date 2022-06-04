@@ -105,7 +105,6 @@ cask "quicklook-json"
 cask "alfred"
 cask "appcleaner"
 cask "bartender"
-cask "boop"
 cask "brave-browser"
 cask "carbon-copy-cloner"
 cask "cheatsheet"
@@ -156,16 +155,6 @@ cask "amazon-chime"
 cask "figma"
 cask "notion"
 cask "zoom"
-
-# EDB
-cask "miro"
-cask "openconnect-gui"
-cask "wkhtmltopdf"
-
-# Techtonica
-tap "heroku/brew"
-brew "heroku"
-cask "dbeaver-community"
 
 # Workaround for vim TabNine/YouCompleteMe which requires Python 3.9
 brew "python@3.9"
