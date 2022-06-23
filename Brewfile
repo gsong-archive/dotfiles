@@ -152,6 +152,7 @@ cask "mailtrackerblocker"
 
 # Dequency
 cask "amazon-chime"
+cask "discord"
 cask "figma"
 cask "notion"
 cask "zoom"
