@@ -68,6 +68,7 @@ highlight SpellBad term=underline gui=undercurl guisp=Orange
 
 " Ale
 let g:ale_linters = {'javascript': ['eslint', 'flow']}
+let g:ale_markdown_markdownlint_options = '--disable MD013'
 let g:ale_fixers = {
   \ '*': ['prettier'],
   \ 'javascript': ['eslint'],
@@ -110,6 +111,25 @@ if executable('ag')
   let g:ctrlp_use_caching = 0
 endif
 
+" YCM
+let g:ycm_auto_hover = ''
+nmap <leader>D <plug>(YCMHover)
+set completeopt-=preview
+nnoremap <c-]> :YcmCompleter GoTo<CR>
+let g:ycm_filetype_blacklist =
+      \ get( g:, 'ycm_filetype_blacklist', {
+      \   'tagbar': 1,
+      \   'notes': 1,
+      \   'netrw': 1,
+      \   'unite': 1,
+      \   'text': 1,
+      \   'vimwiki': 1,
+      \   'pandoc': 1,
+      \   'infolog': 1,
+      \   'leaderf': 1,
+      \   'mail': 1
+      \ } )
+
 " bind K to grep word under cursor
 nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
@@ -142,6 +162,7 @@ if has("autocmd")
     autocmd VimEnter * call Plugins()
     " prettier
     autocmd FileType javascript.jsx,javascript.mjs,javascript setlocal formatprg=prettier\ --stdin
+    autocmd FileType markdown setlocal spell
 endif
 
 "Highlight trailing spaces http://vim.wikia.com/wiki/Highlight_unwanted_spaces

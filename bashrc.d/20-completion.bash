@@ -8,6 +8,3 @@ hash brew 2> /dev/null \
 # tabtab source for packages
 # uninstall by removing these lines
 [ -r ~/.config/tabtab/bash/__tabtab.bash ] && . ~/.config/tabtab/bash/__tabtab.bash || true
-
-hash heroku 2> /dev/null \
-  && heroku autocomplete:script bash > /dev/null

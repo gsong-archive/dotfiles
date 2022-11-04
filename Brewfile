@@ -6,7 +6,6 @@ tap "homebrew/services"
 
 # Better versions of Mac built-ins
 brew "bash"
-brew "colordiff"
 brew "gnu-sed"
 brew "rsync"
 brew "the_silver_searcher"
@@ -18,6 +17,7 @@ brew "pip-completion"
 brew "yarn-completion"
 
 # General development
+brew "act"
 brew "automake"
 brew "bfg"
 brew "ctop"
@@ -28,9 +28,6 @@ brew "git-lfs"
 brew "hadolint"
 brew "universal-ctags"
 
-# GitHub Actions
-brew "act"
-
 # Node
 brew "nvm"
 
@@ -39,7 +36,7 @@ brew "watchman"
 
 # Python development
 brew "gdbm"
-brew "pyenv"
+brew "pyenv", args: ["HEAD"]
 brew "pyenv-virtualenvwrapper"
 
 # pyenv recommended
@@ -51,10 +48,6 @@ brew "zlib"
 # pyenv 3.6 install workaround
 # https://stackoverflow.com/a/66483524
 brew "bzip2"
-
-# pdftotext
-brew "pkg-config"
-brew "poppler"
 
 # Ruby development
 brew "chruby"
@@ -73,9 +66,11 @@ brew "exa"
 brew "graphviz"
 brew "httpie"
 brew "jq"
+brew "m-cli"
 brew "multimarkdown"
 brew "openssl"
 brew "pandoc"
+brew "pwgen"
 brew "qpdf"
 brew "shellcheck"
 brew "speedtest-cli"
@@ -94,6 +89,9 @@ brew "reattach-to-user-namespace"
 # tmux PAM reattch for Touch ID
 brew "pam-reattach"
 
+# Needed for node sharp (personal-site)
+brew "libvips"
+
 # Quick Look plugins
 cask "qlimagesize"
 cask "qlmarkdown"
@@ -102,60 +100,54 @@ cask "qlvideo"
 cask "quicklook-json"
 
 # Apps
-cask "alfred"
+cask "alfred", greedy: true
 cask "appcleaner"
-cask "bartender"
-cask "brave-browser"
-cask "carbon-copy-cloner"
+cask "bartender", greedy: true
+cask "brave-browser", greedy: true
+cask "carbon-copy-cloner", greedy: true
 cask "cheatsheet"
 cask "coconutbattery"
 cask "cyberduck"
 cask "daisydisk"
-cask "docker"
-cask "duet"
+cask "docker", greedy: true
+cask "duet", greedy: true
 cask "encryptme"
 cask "evernote"
-cask "firefox"
-cask "fsnotes"
+cask "firefox", greedy: true
+cask "fsnotes", greedy: true
 cask "google-chrome"
-cask "istat-menus"
+cask "istat-menus", greedy: true
 cask "keepingyouawake"
 cask "mactracker"
-cask "macvim"
-cask "marked"
+cask "macvim", greedy: true
+cask "marked", greedy: true
 cask "menuwhere"
 cask "messenger"
 cask "micro-snitch"
 cask "ngrok"
 cask "onyx"
-cask "p4v"
+cask "p4v", greedy: true
 cask "pester"
 cask "screenflow"
 cask "skitch"
-cask "slack"
-cask "soundsource"
-cask "sourcetree"
+cask "slack", greedy: true
+cask "soundsource", greedy: true
+cask "sourcetree", greedy: true
 cask "taskpaper"
 cask "the-unarchiver"
-cask "toggl-track"
+cask "toggl-track", greedy: true
 cask "tripmode"
 cask "tweetbot"
 cask "vlc"
 cask "whatsapp"
 
-# Color calibration
-cask "displaycal"
-
-# https://github.com/apparition47/MailTrackerBlocker
-tap "apparition47/tap"
-cask "mailtrackerblocker"
-
 # Dequency
+tap "bbc/audiowaveform"
+brew "audiowaveform"
+brew "flyctl"
 cask "amazon-chime"
+cask "dbeaver-community", greedy: true
 cask "discord"
 cask "figma"
 cask "notion"
-cask "zoom"
-
-# Workaround for vim TabNine/YouCompleteMe which requires Python 3.9
-brew "python@3.9"
+cask "zoom", greedy: true

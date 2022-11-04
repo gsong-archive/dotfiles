@@ -1,15 +1,16 @@
+alias brave='open -a "brave browser.app"'
 alias chrome='open -a "google chrome.app"'
-alias diff=colordiff
-alias flushdns='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/"
+
+alias diff=delta
 alias l='exa $LS_OPTIONS -l'
 alias ll='exa $LS_OPTIONS -la'
 alias ls='exa $LS_OPTIONS'
-alias npx='pnpx -y'
+
+alias npx='pnpm dlx'
 alias pdfcombine='"/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py"'
 alias pgrep='pgrep -f -l'
 alias pkill='pkill -f -l'
-alias reset-wifi='networksetup -setairportpower en0 off && networksetup -setairportpower en0 on'
 alias rm='rm -i'
 alias syspip-compile='PIP_REQUIRE_VIRTUALENV=false pip-compile'
 alias syspip-sync='PIP_REQUIRE_VIRTUALENV=false pip-sync'
@@ -19,7 +20,9 @@ alias start-docker='open -ga Docker'
 alias stop-docker='osascript -e '\''quit app "Docker"'\'
 alias restart-docker='stop-docker && start-docker'
 
-if hash mvim 2>/dev/null; then
+alias speedtest='speedtest --secure'
+
+if hash mvim 2> /dev/null; then
   if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]] || [[ "$TERM_PROGRAM" == "tmux" ]]; then
     alias vi='mvim'
   fi
