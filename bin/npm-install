@@ -10,6 +10,7 @@ npm --location=global install \
   markdownlint-cli@latest \
   pnpm@latest \
   prettier-plugin-sh@latest \
+  prettier-plugin-toml@latest \
   prettier@latest \
   tldr@latest \
   write-good@latest \

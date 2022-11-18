@@ -12,3 +12,5 @@ export PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 [[ -r ~/.localrc ]] && source ~/.localrc
 
 ulimit -n 24576
+
+export LS_OPTIONS="--git --group-directories-first"

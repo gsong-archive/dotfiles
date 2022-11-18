@@ -59,6 +59,7 @@ brew "libmagic"
 
 # More nice-to-haves and various development tools
 brew "autojump"
+brew "bat"
 brew "diff-pdf"
 brew "direnv"
 brew "dive"
@@ -75,6 +76,7 @@ brew "qpdf"
 brew "shellcheck"
 brew "speedtest-cli"
 brew "ssh-copy-id"
+brew "starship"
 brew "swig"
 brew "tmate"
 brew "tmux"
@@ -100,6 +102,7 @@ cask "qlvideo"
 cask "quicklook-json"
 
 # Apps
+cask "1password", greedy: true
 cask "alfred", greedy: true
 cask "appcleaner"
 cask "bartender", greedy: true
@@ -140,6 +143,20 @@ cask "tripmode"
 cask "tweetbot"
 cask "vlc"
 cask "whatsapp"
+
+# Fonts
+tap "homebrew/cask-fonts"
+cask "font-sauce-code-pro-nerd-font"
+
+## Other potential font options
+cask "font-anonymice-nerd-font"
+cask "font-blex-mono-nerd-font"
+cask "font-caskaydia-cove-nerd-font"
+cask "font-droid-sans-mono-nerd-font"
+cask "font-fira-mono-nerd-font"
+cask "font-hasklug-nerd-font"
+cask "font-inconsolata-lgc-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
 
 # Dequency
 tap "bbc/audiowaveform"

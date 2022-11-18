@@ -144,7 +144,7 @@ let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 if has('gui_running')
     set background=light
-    set guifont=InputMono\ Light:h12
+    set guifont=SauceCodeProNerdFontComplete-Regular:h14
 else
     let g:solarized_termcolors=256
     set background=dark
