@@ -146,17 +146,18 @@ cask "whatsapp"
 
 # Fonts
 tap "homebrew/cask-fonts"
+cask "font-input"
 cask "font-sauce-code-pro-nerd-font"
 
 ## Other potential font options
-cask "font-anonymice-nerd-font"
-cask "font-blex-mono-nerd-font"
-cask "font-caskaydia-cove-nerd-font"
-cask "font-droid-sans-mono-nerd-font"
-cask "font-fira-mono-nerd-font"
-cask "font-hasklug-nerd-font"
-cask "font-inconsolata-lgc-nerd-font"
-cask "font-jetbrains-mono-nerd-font"
+# cask "font-anonymice-nerd-font"
+# cask "font-blex-mono-nerd-font"
+# cask "font-caskaydia-cove-nerd-font"
+# cask "font-droid-sans-mono-nerd-font"
+# cask "font-fira-mono-nerd-font"
+# cask "font-hasklug-nerd-font"
+# cask "font-inconsolata-lgc-nerd-font"
+# cask "font-jetbrains-mono-nerd-font"
 
 # Dequency
 tap "bbc/audiowaveform"

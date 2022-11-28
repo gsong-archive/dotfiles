@@ -94,18 +94,20 @@ set nofoldenable
 let g:localvimrc_sandbox = 0
 let g:localvimrc_persistent = 2
 let g:localvimrc_event = ["BufWinEnter", "BufReadPre"]
+let g:localvimrc_ask = 0
 
 " Prettier
 let g:prettier#config#arrow_parens = 'always'
 
 " The Silver Searcher
 if executable('ag')
+  let g:agprg="ag --column --hidden --ignore .git"
   " Use ag over grep
   set grepprg=ag\ --vimgrep\ $*
   set grepformat=%f:%l:%c:%m
 
   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+  let g:ctrlp_user_command = 'ag %s --hidden --ignore .git -l --nocolor -g ""'
 
   " ag is fast enough that CtrlP doesn't need to cache
   let g:ctrlp_use_caching = 0
