@@ -4,8 +4,6 @@
 #
 #    pip-compile
 #
-appnope==0.1.3
-    # via ipython
 aspy-refactor-imports==3.0.2
     # via seed-isort-config
 asttokens==2.1.0
@@ -51,7 +49,7 @@ identify==2.5.8
     #   pre-commit
 idna==3.4
     # via requests
-ipython==8.6.0
+ipython==8.10.0
     # via -r requirements.in
 isort==5.10.1
     # via -r requirements.in
