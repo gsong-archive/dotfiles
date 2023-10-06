@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-npm --location=global install npm@8
+npm --location=global install npm@latest
 
 npm --location=global install \
   @mermaid-js/mermaid-cli@latest \
@@ -10,7 +10,6 @@ npm --location=global install \
   markdownlint-cli@latest \
   pnpm@latest \
   prettier-plugin-sh@latest \
-  prettier@latest \
+  prettier \
   tldr@latest \
   write-good@latest \
-  yarn \

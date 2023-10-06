@@ -1,3 +1,5 @@
+packloadall
+
 set autoread
 set directory=~/.vim/swapdir,$TMPDIR,/var/tmp,/tmp
 set encoding=utf-8
@@ -76,6 +78,9 @@ let g:ale_fixers = {
 \}
 let g:ale_fix_on_save = 1
 
+" Black
+let g:black_use_virtualenv = 0
+
 " NerdTree
 let NERDTreeIgnore=['\.DS_Store', '\.git$', '\.pyc', '\.swo$', '\.swp$', '\~$']
 let NERDTreeChDirMode=2
@@ -142,11 +147,11 @@ let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 " Marked.app integration
-:nnoremap <leader>m :MarkedOpen!<cr>
+:nnoremap <leader>m :silent !open -a Marked\ 2.app '%:p'<cr>
 
 if has('gui_running')
     set background=light
-    set guifont=SauceCodeProNerdFontComplete-Regular:h14
+    set guifont=SauceCodeProNF:h14
 else
     let g:solarized_termcolors=256
     set background=dark
