@@ -54,7 +54,7 @@ brew "autojump"
 brew "bat"
 brew "direnv"
 brew "dive"
-brew "exa"
+brew "eza"
 brew "fd"
 brew "graphviz"
 brew "httpie"
@@ -99,6 +99,7 @@ cask "alfred", greedy: true
 cask "appcleaner"
 cask "arc", greedy: true
 cask "bartender", greedy: true
+cask "betterdisplay", greedy: true
 cask "carbon-copy-cloner", greedy: true
 cask "cheatsheet"
 cask "coconutbattery"
@@ -107,7 +108,7 @@ cask "daisydisk"
 cask "dbeaver-community", greedy: true
 cask "discord"
 cask "docker", greedy: true
-cask "duet", greedy: true
+cask "dropbox", greedy: true
 cask "evernote"
 cask "firefox"
 cask "focusatwill"

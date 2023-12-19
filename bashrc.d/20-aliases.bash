@@ -3,9 +3,9 @@ alias chrome='open -a "google chrome.app"'
 alias ios-simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/"
 
 alias diff=delta
-alias l='exa $LS_OPTIONS -l'
-alias ll='exa $LS_OPTIONS -la'
-alias ls='exa $LS_OPTIONS'
+alias l='eza $LS_OPTIONS --no-quotes -l'
+alias ll='eza $LS_OPTIONS --no-quotes -la'
+alias ls='eza $LS_OPTIONS --no-quotes'
 
 alias ag='ag --hidden'
 alias npx='pnpm dlx'
