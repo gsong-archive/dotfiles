@@ -147,7 +147,7 @@ let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 " Marked.app integration
-:nnoremap <leader>m :silent !open -a Marked\ 2.app '%:p'<cr>
+:nnoremap <leader>m :silent !open -g -a Marked\ 2.app '%:p'<cr>
 
 if has('gui_running')
     set background=light
