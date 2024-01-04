@@ -3,4 +3,5 @@
 !/pip
 !/powerline
 !/pudb/pudb.cfg
+!/nvim
 !starship.toml

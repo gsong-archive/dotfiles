@@ -86,6 +86,11 @@ brew "pam-reattach"
 # Needed for node sharp (personal-site)
 brew "libvips"
 
+## neovim
+brew "neovim"
+cask "vimr"
+brew "ripgrep"
+
 # Quick Look plugins
 cask "qlimagesize"
 cask "qlmarkdown"
@@ -123,7 +128,6 @@ cask "marked", greedy: true
 cask "menuwhere"
 cask "messenger"
 cask "micro-snitch"
-cask "microsoft-edge"
 cask "ngrok"
 cask "onyx"
 cask "p4v", greedy: true
