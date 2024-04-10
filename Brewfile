@@ -46,9 +46,6 @@ brew "ruby-install"
 # Needed for magic
 brew "libmagic"
 
-# needed for ycmd
-brew "cmake"
-
 # More nice-to-haves and various development tools
 brew "autojump"
 brew "bat"
@@ -98,8 +95,17 @@ cask "qlstephen"
 cask "qlvideo"
 cask "quicklook-json"
 
+# ASD
+## AWS
+brew "awscli"
+cask "session-manager-plugin"
+
+## terraform
+brew "tfenv"
+
 # Apps
 cask "1password", greedy: true
+cask "1password-cli", greedy: true
 cask "alfred", greedy: true
 cask "appcleaner"
 cask "arc", greedy: true
@@ -123,10 +129,8 @@ cask "istat-menus", greedy: true
 cask "keepingyouawake"
 cask "keyboardcleantool"
 cask "mactracker"
-cask "macvim", greedy: true
 cask "marked", greedy: true
 cask "menuwhere"
-cask "messenger"
 cask "micro-snitch"
 cask "ngrok"
 cask "onyx"
@@ -142,7 +146,6 @@ cask "soundsource", greedy: true
 cask "sourcetree", greedy: true
 cask "taskpaper"
 cask "the-unarchiver"
-# cask "visual-studio-code", greedy: true
 cask "vlc"
 cask "whatsapp"
 cask "zoom", greedy: true
