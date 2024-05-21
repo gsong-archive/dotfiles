@@ -141,7 +141,7 @@ pyyaml==6.0.1
     #   linode-cli
     #   openapi3
     #   pre-commit
-requests==2.31.0
+requests==2.32.0
     # via
     #   linode-cli
     #   openapi3
