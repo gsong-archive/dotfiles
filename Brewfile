@@ -96,6 +96,8 @@ cask "qlvideo"
 cask "quicklook-json"
 
 # ASD
+cask "webex"
+
 ## AWS
 brew "awscli"
 cask "session-manager-plugin"
