@@ -24,9 +24,6 @@ brew "hadolint"
 # Node
 brew "nvm"
 
-# React develoment (jest)
-brew "watchman"
-
 # Python development
 brew "gdbm"
 brew "pyenv", args: ["HEAD"]
@@ -53,6 +50,7 @@ brew "direnv"
 brew "dive"
 brew "eza"
 brew "fd"
+brew "fzf"
 brew "graphviz"
 brew "httpie"
 brew "jq"
@@ -96,8 +94,6 @@ cask "qlvideo"
 cask "quicklook-json"
 
 # ASD
-cask "webex"
-
 ## AWS
 brew "awscli"
 cask "session-manager-plugin"
@@ -114,6 +110,7 @@ cask "arc", greedy: true
 cask "bartender", greedy: true
 cask "betterdisplay", greedy: true
 cask "carbon-copy-cloner", greedy: true
+cask "chatgpt"
 cask "cheatsheet"
 cask "coconutbattery"
 cask "cyberduck"
@@ -135,13 +132,11 @@ cask "marked", greedy: true
 cask "menuwhere"
 cask "micro-snitch"
 cask "ngrok"
-cask "onyx"
 cask "p4v", greedy: true
 cask "pester"
 cask "rapidapi"
 cask "screenflow"
 cask "shottr"
-cask "skitch"
 cask "slack", greedy: true
 cask "sloth"
 cask "soundsource", greedy: true
